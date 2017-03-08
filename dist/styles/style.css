@@ -3,7 +3,7 @@ html{
 	font-size: 100%;
 }
 
-room-list{
+.navbar{
 	position: fixed;
 	background-color: #FF4747;
 	height: 100%;
@@ -11,4 +11,15 @@ room-list{
 	left: auto;
 	top: 0;
 	left: 0;
+}
+
+h1 {
+	position: relative;
+	left: 1rem;
+}
+
+.room-list {
+	position: relative;
+	font-size: 1.5rem;
+	left: 1rem;
 }
