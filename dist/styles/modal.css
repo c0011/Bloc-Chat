@@ -1,0 +1,12 @@
+.header {
+	text-align: center;
+}
+
+.m-body {
+	position: relative;
+	left: 3rem;
+}
+
+.input {
+	width: auto;
+}

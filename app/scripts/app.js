@@ -6,7 +6,7 @@
       requireBase: false
     });
 	  
-	  $urlRouterProvider.otherwise('/');
+	  
 	  
 	  $stateProvider
       .state('main', {
@@ -14,9 +14,11 @@
       controller: 'MainCtrl as main',
       templateUrl: '/templates/main.html'
     });
+	  
+	  $urlRouterProvider.otherwise('/');
   }
 
     angular
-      .module('blocChat', ['ui.router', 'firebase'])
+      .module('blocChat', ['ui.router', 'firebase', 'ui.bootstrap'])
       .config(config);
   })();

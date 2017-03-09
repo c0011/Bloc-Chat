@@ -1,7 +1,11 @@
 <h1>Bloc Chat</h1>
 
+<div class="new-room">
+	<button type="button" class="button" ng-click="main.open()">New Room</button>
+</div>
+
 <div class="room-list">
 	<div ng-repeat="room in main.chatRooms">
-		<a>{{ room.$value }}</a>
+		<a class="room-item">{{room.name}}</a>
 	</div>
 </div>

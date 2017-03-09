@@ -14,6 +14,7 @@ html{
 }
 
 h1 {
+	font-weight: bold;
 	position: relative;
 	left: 1rem;
 }
@@ -22,4 +23,22 @@ h1 {
 	position: relative;
 	font-size: 1.5rem;
 	left: 1rem;
+}
+
+.room-item {
+	color: black;
+}
+
+.new-room {
+	position: fixed;
+	left: 12.5rem;
+	top: 1.3rem;
+}
+
+.button {
+	height: 2.5rem;
+	font-weight: bold;
+	background-color: white;
+	border-color: black;
+	border-width: 3px;
 }
