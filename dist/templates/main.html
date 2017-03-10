@@ -6,6 +6,16 @@
 
 <div class="room-list">
 	<div ng-repeat="room in main.chatRooms">
-		<a class="room-item">{{room.name}}</a>
+		<a class="room-item" ng-click="main.setRoom(room)">{{room.name}}</a>
 	</div>
 </div>
+
+<section class="chat-window" ng-show="main.roomTitle != null">
+	<h2 class="room-title">{{ main.roomTitle }}</h2>
+	
+	<div class="msg-container">
+		<div class="msg-list" ng-repeat="message in main.messages">
+			<div class="msg-content">{{ message.content }}</div>
+		</div>
+	</div>
+</section>

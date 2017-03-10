@@ -1,12 +1,33 @@
+.modal-container {
+	background-color: #FF4747;
+	height: 8rem;
+}
+
 .header {
 	text-align: center;
 }
 
 .m-body {
 	position: relative;
-	left: 3rem;
+	text-align: center;
 }
 
-.input {
-	width: auto;
+.footer {
+	position: relative;
+	top: 1.5rem;
+	text-align: center;
+}
+
+.create-button {
+	background-color: white;
+	font-weight: bold;
+	border-width: 3px;
+	border-color: black;
+}
+
+.cancel-button {
+	background-color: white;
+	font-weight: bold;
+	border-width: 3px;
+	border-color: black;
 }
