@@ -82,4 +82,18 @@ h1 {
 .msg-content {
 	position: relative;
 	color: black;
+	font-size: 1.5rem;
+}
+
+.new-msg-container {
+	position: relative;
+	top: 1rem;
+}
+
+.send-input {
+	width: 70%;
+}
+
+.username {
+	font-size: 0.75rem;
 }
